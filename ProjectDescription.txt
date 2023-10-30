@@ -1,0 +1,22 @@
+Poetry in Motion
+
+Significance:
+	Since the beginning of language, poetry has been used as an art form to elicit emotion through spoken and written words. What would happen if we tried to visualize the combination of these emotions as images? By asking a machine to visualize the words of a poem, we can see how the literal story/characters/setting of the poem interact with the figurative aspects of the poem such as language/tone/emotion. How will the resulting images compare to the imagination of the reader of the poem? Does poetry bring about the same visualization in the minds of humans and AI?
+
+The goal of this project is to visualize a poem using text processing and image generation AI
+
+Dataset:
+I will either hand collect or scrape from the internet a variety of poems
+Preferably they will be somewhat short so that the entire poem can be fed into the image generation prompt
+If the poem is too long then it could be partitioned into manageable sections of the poem
+Another option would be to have a text processing AI condense the poem to a manageable size but that may take away from the language of the poem
+
+Result:
+For each poem, it will be fed through an image generation AI as a prompt which will produce a series of images inspired by the poem
+The image generation could be due to DALLE, runway ML, etc.
+Then these images could be combined using latent spaces or transitions between images in order to abstract the vibe of the poem and add motion
+I think that I could implement a cool algorithm where you input several images and then the output is a sequence of images that transitions smoothly between the images
+
+
+ 		
+
